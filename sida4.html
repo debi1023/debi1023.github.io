@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Hur gör man ett formulär</h2>
+    <form action="/action_page.php" method="get">
+        <input type="text" name="fname" value="John"><br>
+        <input type="submit" value="Submit">
+    </form>
+    <h2>Exempel 2</h2>
+    <form action="/action_page.php">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" value="John"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" value="Doe"><br><br>
+        <input type="submit" value="Submit">
+      </form> 
+    <h2>Radio input</h2>
+    <p>Finast färg</p>
+    <form action="/action_page.php">
+        <input type="radio" id="gul" name="finast_farg" value="gul">
+        <label for="gul">Gul</label><br>
+        <input type="radio" id="vit" name="finast_farg" value="vit" checked>
+        <label for="vit">Vit</label><br>
+        <input type="radio" id="svart" name="finast_farg" value="svart">
+        <label for="svart">Svart</label>
+        <br>
+        <input type="submit" value="Submit">
+    </form> 
+</body>
+</html>
