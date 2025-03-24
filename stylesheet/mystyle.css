@@ -1,0 +1,44 @@
+
+p {
+    background-color: green;
+}
+
+* {
+    font-family: Arial, sans-serif;
+    font-size: 120%;
+}
+
+.finetext {
+    color: darkorchid
+}
+
+
+.bacred {
+    text-align: center;
+    background-color: crimson;
+    border: 1px solid black;
+    padding: 10px;
+    width: 500px;
+    text-align: justify;
+
+}
+
+
+
+body {
+    background-image: url("../HTML.png");
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-position: right top;
+    margin-right: 200px;
+    background-attachment: fixed;
+}
+
+div {
+    border: 1px solid black;
+    padding: 10px;
+    width: 500px;
+    text-align: justify;
+}
+
+;
