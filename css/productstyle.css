@@ -1,0 +1,51 @@
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: auto auto auto;
+    grid-template-areas:
+        "logo logo"
+        "image info"    
+        "description size";
+}
+
+.logo {
+    grid-area: logo;
+}
+
+
+
+.product-image {
+    grid-area: image;
+    height: auto;
+    width: 100%;
+    
+}
+.info {
+    grid-area: info;
+    text-align: justify;
+}
+
+
+.description {
+    grid-area: description;
+    text-align: justify;
+}
+
+.size {
+    grid-area: size
+}
+
+
+table, th, td {
+  border: 3px solid;
+}
+table {
+  border-collapse: collapse;
+  width: 40%;
+}
+th {
+  height: 50px;
+  text-align: left;
+}

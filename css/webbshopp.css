@@ -1,3 +1,8 @@
+body {
+  margin: 0px;
+}
+
+
 .grid-container {
     display: grid;
     grid-template-columns: 30% 70%;
@@ -21,7 +26,7 @@
     width: 20%;
     margin: 10px;
     text-align: center;
-    line-height: 75px;
+    /* line-height: 75px; */
     font-size: 30px;
 
 }
@@ -42,6 +47,7 @@
 .product {
     width: 25%;
     height: auto;
+    position: relative;
 }
 
 .productimg {
@@ -91,9 +97,50 @@
     font-size: 16px;
     background-color: rgb(202, 255, 132);
     margin: 4px 2px;
-    padding: 7px 16px;
+    padding: 14px 2px 14px 2px;
+    height: 50px;
     width: 40%;
     display: inline-block;
     box-sizing: border-box;
-    padding-top: 50px
+    /* padding-top: 50px */
+
+}
+
+.testbl {
+  position: absolute;
+  left: 10px;
+  bottom: 10px;
+
+    background-color: #4CAF50;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    height: 50px;
+
+
+}
+.testbr {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+
+      background-color: #4CAF50;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 00px 0px;
+    text-align: center;
+    /* text-decoration: none; */
+    font-size: 16px;
+    /* margin: 4px 2px; */
+    cursor: pointer;
+
+    /* height: 50px; */
+
 }
