@@ -49,3 +49,20 @@ th {
   height: 50px;
   text-align: left;
 }
+
+
+.buybutton {
+    background-color: #4CAF50;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    width: 40%;
+    box-sizing: border-box;
+
+}
