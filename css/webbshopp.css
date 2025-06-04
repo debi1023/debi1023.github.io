@@ -144,3 +144,9 @@ body {
     /* height: 50px; */
 
 }
+
+a:link, a:visited { 
+  color: rgb(0, 4, 255);
+  text-decoration: none;
+  cursor: pointer;
+}

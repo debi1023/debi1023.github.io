@@ -12,6 +12,8 @@
 
 .logo {
     grid-area: logo;
+    background-color: rgb(141, 255, 70);
+    text-shadow: 2px 2px 4px #ffffff
 }
 
 
@@ -20,11 +22,14 @@
     grid-area: image;
     height: auto;
     width: 100%;
+
     
 }
 .info {
     grid-area: info;
     text-align: justify;
+    padding-left: 3px;
+    background-color: lightgreen;
 }
 
 
@@ -40,6 +45,7 @@
 
 table, th, td {
   border: 3px solid;
+  background-color: white;
 }
 table {
   border-collapse: collapse;
@@ -65,4 +71,8 @@ th {
     width: 40%;
     box-sizing: border-box;
 
+}
+
+.body {
+    background-color: rgb(106, 176, 32);
 }
