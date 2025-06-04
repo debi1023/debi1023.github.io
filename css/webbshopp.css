@@ -14,16 +14,29 @@ body {
     ;
 }
 
+@media screen and (min-width: 480px) {
+    .grid-container {
+        grid-template-columns: 30% 70%;
+        grid-template-rows: auto auto;
+        grid-template-areas:
+            "searchbar searchbar"
+            "list productarea"
+        ;
+    }
+}
+
 .flex-container {
     display: flex;
     flex-wrap: wrap;
     background-color: rgb(106, 176, 32);
     grid-area: productarea;
+    justify-content: space-around;
 }
 
 .flex-container>div {
     background-color: #ffffff;
-    width: 20%;
+    /* width: 20%; */
+    width: 200px;
     margin: 10px;
     text-align: center;
     /* line-height: 75px; */
@@ -45,7 +58,8 @@ body {
 /* Product area*/
 
 .product {
-    width: 25%;
+    /* width: 25%; */
+    width: 100px;
     height: auto;
     position: relative;
 }
@@ -93,6 +107,10 @@ body {
 
 }
 
+@media screen and (max-width: 500px)  {
+    /* buy buttonx */
+}
+
 .price {
     font-size: 16px;
     background-color: rgb(202, 255, 132);
@@ -106,43 +124,8 @@ body {
 
 }
 
-.testbl {
-  position: absolute;
-  left: 10px;
-  bottom: 10px;
-
-    background-color: #4CAF50;
-    /* Green */
-    border: none;
-    color: white;
-    padding: 5px 5px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    height: 50px;
-
-
-}
-.testbr {
-  position: absolute;
-  right: 10px;
-  bottom: 10px;
-
-      background-color: #4CAF50;
-    /* Green */
-    border: none;
-    color: white;
-    padding: 00px 0px;
-    text-align: center;
-    /* text-decoration: none; */
-    font-size: 16px;
-    /* margin: 4px 2px; */
-    cursor: pointer;
-
-    /* height: 50px; */
-
+@media screen and (max-width: 500px)  {
+    /* price */
 }
 
 a:link, a:visited { 
@@ -150,3 +133,19 @@ a:link, a:visited {
   text-decoration: none;
   cursor: pointer;
 }
+
+h1 {
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+ a {
+    font-size: 10px;
+    text-align: center;
+    text-decoration: underline;
+  }
+}
+
